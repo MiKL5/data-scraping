@@ -60,7 +60,7 @@ Le droit des bases de données protège certains contenus minés. Les conditions
 2. [BookHarvest](projects/TPScraping—BookHarvest)
 ## Projets avec <a href="#"><img align="cetner" src="https://raw.githubusercontent.com/scrapy/scrapy/master/docs/_static/logo.svg" alt="Scrapy" height="16px"></a>
 3. [Books](projects/books2scrape)
-4. [BookHarvest — Scrapy Edition](projects/TP_BookHarvest—Scrapy%20Edition)
+4. [BookHarvest — Scrapy Edition](projects/TP_BookHarvest—Scrapy-Edition)
 5. [Quotes API](projects/quotesApi)
 6. [Bypass](projects/bypass)
 7. [LoginQuotes](projects/loginQuotes)
