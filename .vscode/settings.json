@@ -1,22 +1,90 @@
 {
+    // --- Peacock : couleur maître ---
+    "peacock.color": "#ffd800",
+    "peacock.remoteColor": "#009f87",
+    // --- Éléments colorés ---
+    "peacock.affectActivityBar": true,
+    "peacock.affectStatusBar": true,
+    "peacock.affectTitleBar": true,
+    "peacock.affectSashHover": true,
+    "peacock.affectEditorGroupBorder": true,
+    "peacock.affectPanelBorder": true,
+    "peacock.affectSideBarBorder": true,
+    "peacock.affectTabActiveBorder": true,
+    "peacock.elementAdjustments": {
+        "activityBar": "none",
+        "statusBar": "darken",
+        "titleBar": "lighten"
+    },
+    "peacock.surpriseMeOnStartup": false,
+    "peacock.favoriteColors": [
+        {
+            "name": "Scraping Jaune",
+            "value": "#ffd800"
+        },
+        {
+            "name": "Data Cleaning Vert",
+            "value": "#42b883"
+        },
+        {
+            "name": "ML Violet",
+            "value": "#832561"
+        },
+        {
+            "name": "Web Bleu",
+            "value": "#007fff"
+        }
+    ],
+    // --- Couleurs de l'interface ---
     "workbench.colorCustomizations": {
+        // Barre d'activité
         "activityBar.activeBackground": "#ffe033",
         "activityBar.background": "#ffe033",
         "activityBar.foreground": "#15202b",
         "activityBar.inactiveForeground": "#15202b99",
+        "activityBar.activeBorder": "#15202b",
         "activityBarBadge.background": "#009f87",
-        "activityBarBadge.foreground": "#e7e7e7",
-        "commandCenter.border": "#15202b99",
+        "activityBarBadge.foreground": "#15202b",
+        "activityBarTop.activeBackground": "#ffe033",
+        "activityBarTop.activeBorder": "#15202b",
+        "activityBarTop.background": "#ffe033",
+        "activityBarTop.foreground": "#15202b",
+        "activityBarTop.inactiveForeground": "#15202b99",
+        // Séparateurs
         "sash.hoverBorder": "#ffe033",
-        "statusBar.background": "#ffd800",
-        "statusBar.foreground": "#15202b",
-        "statusBarItem.hoverBackground": "#ccad00",
-        "statusBarItem.remoteBackground": "#ffd800",
-        "statusBarItem.remoteForeground": "#15202b",
+        // Barre de titre
         "titleBar.activeBackground": "#ffd800",
         "titleBar.activeForeground": "#15202b",
         "titleBar.inactiveBackground": "#ffd80099",
-        "titleBar.inactiveForeground": "#15202b99"
+        "titleBar.inactiveForeground": "#15202b99",
+        // Barre de commandes
+        "commandCenter.background": "#15202b",
+        "commandCenter.foreground": "#ffd800",
+        "commandCenter.border": "#ffd80066",
+        "commandCenter.activeBackground": "#1f3347",
+        "commandCenter.activeForeground": "#fff3a3",
+        "commandCenter.activeBorder": "#ffd800",
+        "commandCenter.inactiveForeground": "#ffd80099",
+        "commandCenter.inactiveBorder": "#ffd80033",
+        // Barre d'état
+        "statusBar.background": "#1b2a3a",
+        "statusBar.foreground": "#ffd800",
+        "statusBar.border": "#ffd800",
+        "statusBar.inactiveBackground": "#1b2a3acc",
+        "statusBar.inactiveForeground": "#ffd80099",
+        "statusBar.noFolderBackground": "#3a3a3a",
+        "statusBar.noFolderForeground": "#ffd800",
+        "statusBar.debuggingBackground": "#c0392b",
+        "statusBar.debuggingForeground": "#ffffff",
+        "statusBarItem.hoverBackground": "#2c4157",
+        "statusBarItem.hoverForeground": "#fff3a3",
+        "statusBarItem.prominentBackground": "#009f87",
+        "statusBarItem.prominentForeground": "#15202b",
+        "statusBarItem.prominentHoverBackground": "#00bfa3",
+        "statusBarItem.remoteBackground": "#009f87",
+        "statusBarItem.remoteForeground": "#15202b"
     },
-    "peacock.color": "#ffd800"
+    // --- Python / Conda ---
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda"
 }
